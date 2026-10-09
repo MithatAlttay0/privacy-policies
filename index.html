@@ -1,108 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Mithat Altay Games</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; padding: 24px; max-width: 850px; margin: auto; color: #222; }
-        h1, h2, h3 { color: #111; }
-        hr { border: 0; border-top: 1px solid #ddd; margin: 35px 0; }
-        .lang-switch { background: #f4f4f4; padding: 12px; border-radius: 6px; margin-bottom: 25px; font-size: 15px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 6px; }
-        a { color: #0366d6; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .contact-box { background: #eef5fc; padding: 12px 16px; border-left: 4px solid #0366d6; border-radius: 4px; margin-top: 15px; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emberfall – Privacy Policy</title>
+<style>
+  :root{--bg:#ffffff;--text:#1d1a24;--dim:#5b5566;--line:#e4e0ea;--accent:#c2410c}
+  @media (prefers-color-scheme:dark){:root{--bg:#120c1e;--text:#f1eaff;--dim:#a99ec9;--line:#2c2342;--accent:#ffb347}}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+  main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+  h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px;color:var(--accent)}h3{font-size:17px;margin:20px 0 4px}
+  p,li{color:var(--text)}.dim{color:var(--dim);font-size:14px}
+  hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+  table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+  a{color:var(--accent)}
+</style>
 </head>
 <body>
+<main>
+<h1>Emberfall – Privacy Policy</h1>
+<p class="dim">Last updated: October 9, 2026 · <a href="#tr">Türkçe aşağıda</a></p>
 
-    <div class="lang-switch">
-        Language: <a href="#en">English</a> | <a href="#tr">Türkçe</a>
-    </div>
+<p>This policy explains what information the Emberfall game ("the game", "we") collects, how it is used and your choices. Emberfall is developed by Mithat Altay (contact: <a href="mailto:mithatalttay.1@hotmail.com">mithatalttay.1@hotmail.com</a>).</p>
 
-    <!-- ENGLISH SECTION -->
-    <section id="en">
-        <h1>Privacy Policy</h1>
-        <p><strong>Last Updated:</strong> October 2026</p>
-        <p>This Privacy Policy governs the mobile applications and games developed and published by <strong>Mithat Altay</strong> (including <em>Car Dealership Simulator</em> and related titles on Google Play).</p>
+<h2>Summary</h2>
+<ul>
+  <li>The game can be played completely offline. Your progress is stored only on your device.</li>
+  <li>The only data sent to the internet is for the optional <strong>online leaderboard</strong>: the username you choose, your best score and a few game statistics, linked to an anonymous ID.</li>
+  <li>We do not collect your real name, email, location, contacts or photos. There are no ads and no analytics or tracking in the game.</li>
+  <li>We never sell your data.</li>
+</ul>
 
-        <h2>1. Information We Do Not Collect Directly</h2>
-        <p>We respect your privacy. We do not directly collect, store, sell, or transmit any sensitive personal identity data such as your real name, home address, contact list, or payment credentials.</p>
+<h2>1. Data stored on your device</h2>
+<p>Your game progress (gold, unlocked heroes and maps, upgrades, settings, records, chosen username) is saved in the app's local storage on your device. It is not sent to us. Uninstalling the game or clearing its data deletes it.</p>
 
-        <h2>2. Third-Party Services and Advertising (AdMob)</h2>
-        <p>Our games are supported by third-party advertising to keep them free to play. These third parties may collect and process specific technical identifiers to serve ads, combat fraud, and analyze system performance:</p>
-        <ul>
-            <li><strong>Google Play Services:</strong> Core application lifecycle, security, and integrity verification.</li>
-            <li><strong>Google AdMob:</strong> Serves personalized and non-personalized advertisements. Collected data may include Google Advertising ID (AAID), IP address, crash logs, and general in-app interactions.</li>
-        </ul>
-        <p>For detailed information on how Google processes this data, please visit the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy &amp; Terms Policy</a>.</p>
+<h2>2. Online leaderboard</h2>
+<p>When your device is online, the game submits your best result to the leaderboard so it can be shown to other players. The following is sent:</p>
+<table>
+  <tr><th>Data</th><th>Purpose</th></tr>
+  <tr><td>Username you chose in the game (2–13 characters)</td><td>Shown on the leaderboard</td></tr>
+  <tr><td>Best score, endless-mode time, kills, round, hero and map used, time of the score</td><td>Ranking</td></tr>
+  <tr><td>An anonymous user ID created by Firebase Authentication</td><td>Lets your device update only its own leaderboard entry</td></tr>
+</table>
+<p>The leaderboard is hosted on <strong>Google Firebase</strong> (Firebase Authentication and Cloud Firestore), operated by Google LLC as our service provider. As part of providing the service, Google may process technical data such as your IP address. See <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a> and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+<p>All data is transmitted over an encrypted connection (HTTPS). Leaderboard entries (username and scores) are visible to other players of the game. Do not use your real name or personal information as your username.</p>
 
-        <h2>3. Local Storage and Data Persistence</h2>
-        <p>All in-game progress, unlocked vehicles, virtual currency, statistics, and preferences are stored exclusively on your device's local storage. We do not maintain external account servers for single-player offline sessions.</p>
+<h2>3. What we do not collect</h2>
+<p>No advertising ID, no location, no contacts, no camera or microphone access, no payment information. The game currently shows no ads and contains no analytics, advertising or tracking SDKs. If this changes (for example, if ads are added), this policy will be updated before the change.</p>
 
-        <h2>4. User Rights and Data Deletion</h2>
-        <p>In compliance with international data protection frameworks (such as GDPR, CCPA/CPRA, and KVKK), users hold the right to access, manage, and erase their data:</p>
-        <ul>
-            <li><strong>Deleting Gameplay Data:</strong> Go to your device <em>Settings &gt; Apps &gt; [Game Title] &gt; Storage &gt; Clear Data</em> or simply uninstall the application.</li>
-            <li><strong>Opting Out of Targeted Ads:</strong> Go to <em>Settings &gt; Google &gt; Ads</em> and choose <em>"Reset advertising ID"</em> or <em>"Delete advertising ID"</em>.</li>
-        </ul>
+<h2>4. Children</h2>
+<p>Emberfall is not directed at children under 13 and we do not knowingly collect personal information from them. If you believe a child has submitted information to the leaderboard, contact us and we will delete it.</p>
 
-        <h2>5. Children's Online Privacy (COPPA Compliance)</h2>
-        <p>Our applications are designed for a general audience. We do not knowingly solicit or collect personal information from individuals under the age of 13. Third-party ad configurations strictly comply with standard COPPA (Children's Online Privacy Protection Act) restrictions.</p>
+<h2>5. Data retention and deletion</h2>
+<p>Leaderboard entries are kept while the leaderboard exists. You can request deletion of your leaderboard entry at any time by emailing <a href="mailto:mithatalttay.1@hotmail.com">mithatalttay.1@hotmail.com</a> with your username; we will delete it within 30 days. Data stored on your device can be deleted by uninstalling the game or clearing its app data.</p>
 
-        <h2>6. Policy Revisions</h2>
-        <p>We may update this policy periodically to reflect operational, legal, or regulatory requirements. Any modifications will become effective immediately upon posting to this URL.</p>
+<h2>6. Your rights</h2>
+<p>Depending on where you live (for example under the GDPR in the EU or KVKK in Türkiye), you may have the right to access, correct or delete your data and to object to its processing. To use these rights, contact us at the email above.</p>
 
-        <h2>7. Contact Information</h2>
-        <div class="contact-box">
-            If you have questions, inquiries, or data-related requests regarding this policy, please reach out via email:<br>
-            <strong>Email:</strong> <a href="mailto:mithatalttay.1@hotmail.com">mithatalttay.1@hotmail.com</a>
-        </div>
-    </section>
+<h2>7. Changes</h2>
+<p>We may update this policy. The "Last updated" date above shows the latest version.</p>
 
-    <hr>
+<hr>
 
-    <!-- TURKISH SECTION -->
-    <section id="tr">
-        <h1>Gizlilik Politikası</h1>
-        <p><strong>Son Güncelleme:</strong> Ekim 2026</p>
-        <p>Bu Gizlilik Politikası, <strong>Mithat Altay</strong> tarafından geliştirilen ve Google Play mağazasında yayınlanan tüm mobil oyun ve uygulamalar (başta <em>Car Dealership Simulator / Galericilik Simülatörü</em> olmak üzere tüm yapımlar) için geçerlidir.</p>
+<section id="tr" lang="tr">
+<h1>Emberfall – Gizlilik Politikası</h1>
+<p class="dim">Son güncelleme: 9 Ekim 2026</p>
 
-        <h2>1. Doğrudan Toplanmayan Bilgiler</h2>
-        <p>Kullanıcı gizliliğine önem veriyoruz. Tarafımızca kullanıcıların adı, soyadı, telefon rehberi, fiziksel adresi veya ödeme bilgileri gibi doğrudan kimlik belirten hassas kişisel verileri toplanmaz, saklanmaz ve üçüncü şahıslara satılmaz.</p>
+<p>Bu politika, Emberfall oyununun ("oyun", "biz") hangi bilgileri topladığını, nasıl kullandığını ve senin seçeneklerini açıklar. Emberfall'ın geliştiricisi Mithat Altay'dır (iletişim: <a href="mailto:mithatalttay.1@hotmail.com">mithatalttay.1@hotmail.com</a>).</p>
 
-        <h2>2. Üçüncü Taraf Hizmetleri ve Reklam Gösterimi (AdMob)</h2>
-        <p>Oyunlarımızın ücretsiz kalabilmesi için üçüncü taraf reklam altyapıları kullanılmaktadır. Bu sağlayıcılar; reklam sunumu, sahtecilik önleme ve hata analizi amacıyla belirli teknik cihaz verilerini otomatik olarak işleyebilir:</p>
-        <ul>
-            <li><strong>Google Play Hizmetleri:</strong> Temel uygulama bütünlüğü, performans takibi ve güvenlik.</li>
-            <li><strong>Google AdMob:</strong> Kişiselleştirilmiş veya bağlamsal reklam gösterimi. Toplanabilecek veriler arasında Android Reklam Kimliği (AAID), IP adresi, kilitlenme raporları ve uygulama içi etkileşim istatistikleri yer alabilir.</li>
-        </ul>
-        <p>Google'ın veri işleme prosedürleri hakkında ayrıntılı bilgi için <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik ve Güvenlik İlkeleri</a> sayfasını inceleyebilirsiniz.</p>
+<h2>Özet</h2>
+<ul>
+  <li>Oyun tamamen internetsiz oynanabilir. İlerlemen yalnızca kendi cihazında saklanır.</li>
+  <li>İnternete gönderilen tek veri, isteğe bağlı <strong>çevrimiçi sıralama</strong> içindir: seçtiğin kullanıcı adı, en iyi skorun ve birkaç oyun istatistiği; anonim bir kimlikle eşleştirilir.</li>
+  <li>Gerçek adını, e-postanı, konumunu, rehberini veya fotoğraflarını toplamayız. Oyunda reklam, analiz ya da izleme aracı yoktur.</li>
+  <li>Verilerini asla satmayız.</li>
+</ul>
 
-        <h2>3. Yerel Veri Saklama (Offline Kayıt)</h2>
-        <p>Oyun içindeki ilerlemeler, satın alınan araçlar, sanal bakiye ve ayarlar harici bir veritabanında değil, tamamen cihazınızın yerel hafızasında saklanmaktadır.</p>
+<h2>1. Cihazında saklanan veriler</h2>
+<p>Oyun ilerlemen (altın, açılan kahraman ve haritalar, güçlendirmeler, ayarlar, rekorlar, seçtiğin kullanıcı adı) cihazındaki uygulama depolamasında tutulur ve bize gönderilmez. Oyunu kaldırmak veya uygulama verilerini temizlemek bunları siler.</p>
 
-        <h2>4. Kullanıcı Hakları ve Veri Silme (KVKK ve GDPR Uyumluluğu)</h2>
-        <p>Kullanıcılar yerel veya teknik verileri üzerinde tam kontrole sahiptir:</p>
-        <ul>
-            <li><strong>Oyun Verilerini Silme:</strong> Cihazınızdan <em>Ayarlar &gt; Uygulamalar &gt; [Oyunun Adı] &gt; Depolama &gt; Verileri Temizle</em> yolunu izleyebilir veya uygulamayı kaldırarak cihazdaki tüm kayıtları tamamen silebilirsiniz.</li>
-            <li><strong>Reklam Verilerini Yönetme:</strong> Cihazınızdan <em>Ayarlar &gt; Google &gt; Reklamlar &gt; Reklam Kimliğini Sıfırla / Sil</em> seçeneğiyle reklam hedeflemesini sıfırlayabilirsiniz.</li>
-        </ul>
+<h2>2. Çevrimiçi sıralama</h2>
+<p>Cihazın internete bağlıyken oyun, en iyi sonucunu diğer oyuncuların görebileceği sıralamaya gönderir. Gönderilenler:</p>
+<table>
+  <tr><th>Veri</th><th>Amaç</th></tr>
+  <tr><td>Oyunda seçtiğin kullanıcı adı (2–13 karakter)</td><td>Sıralamada gösterilir</td></tr>
+  <tr><td>En iyi skor, sonsuz mod süresi, öldürme sayısı, tur, kullanılan kahraman ve harita, skorun zamanı</td><td>Sıralama</td></tr>
+  <tr><td>Firebase Authentication'ın oluşturduğu anonim kullanıcı kimliği</td><td>Cihazının sadece kendi satırını güncelleyebilmesi</td></tr>
+</table>
+<p>Sıralama, hizmet sağlayıcımız Google LLC'nin işlettiği <strong>Google Firebase</strong> (Firebase Authentication ve Cloud Firestore) üzerinde barındırılır. Google, hizmeti sağlarken IP adresi gibi teknik verileri işleyebilir. Ayrıntılar: <a href="https://firebase.google.com/support/privacy">Firebase gizlilik bilgileri</a>, <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>.</p>
+<p>Tüm veriler şifreli bağlantıyla (HTTPS) gönderilir. Sıralama kayıtları (kullanıcı adı ve skorlar) oyunun diğer oyuncularına görünür. Kullanıcı adı olarak gerçek adını veya kişisel bilgilerini kullanma.</p>
 
-        <h2>5. Çocukların Gizliliği</h2>
-        <p>Oyunlarımız genel kitleye hitap etmekte olup, 13 yaş altındaki çocuklardan bilerek herhangi bir kişisel veri toplamamaktadır. Entegre edilen reklam sağlayıcıları çocuk gizliliği kurallarına (COPPA) uygun şekilde sınırlandırılmaktadır.</p>
+<h2>3. Toplamadıklarımız</h2>
+<p>Reklam kimliği, konum, rehber, kamera veya mikrofon erişimi, ödeme bilgisi yoktur. Oyun şu an reklam göstermez ve analiz, reklam veya izleme yazılımı içermez. Bu değişirse (ör. reklam eklenirse) bu politika değişiklikten önce güncellenir.</p>
 
-        <h2>6. Değişiklikler</h2>
-        <p>Yasal veya teknik gereksinimler doğrultusunda bu politika zaman zaman güncellenebilir. Güncellemeler bu web adresi üzerinden yayınlandığı andan itibaren geçerlilik kazanır.</p>
+<h2>4. Çocuklar</h2>
+<p>Emberfall 13 yaş altındaki çocuklara yönelik değildir ve onlardan bilerek kişisel bilgi toplamayız. Bir çocuğun sıralamaya bilgi gönderdiğini düşünüyorsan bize yaz, sileriz.</p>
 
-        <h2>7. İletişim</h2>
-        <div class="contact-box">
-            Bu gizlilik politikası ile ilgili tüm soru, talep ve geri bildirimleriniz için doğrudan geliştiriciyle iletişime geçebilirsiniz:<br>
-            <strong>E-posta:</strong> <a href="mailto:mithatalttay.1@hotmail.com">mithatalttay.1@hotmail.com</a>
-        </div>
-    </section>
+<h2>5. Saklama ve silme</h2>
+<p>Sıralama kayıtları sıralama var olduğu sürece saklanır. Kullanıcı adını yazarak <a href="mailto:mithatalttay.1@hotmail.com">mithatalttay.1@hotmail.com</a> adresine e-posta göndererek sıralama kaydının silinmesini istediğin zaman isteyebilirsin; 30 gün içinde sileriz. Cihazındaki veriler oyunu kaldırarak veya uygulama verilerini temizleyerek silinir.</p>
 
+<h2>6. Hakların</h2>
+<p>Yaşadığın yere göre (ör. Türkiye'de KVKK, AB'de GDPR) verilerine erişme, düzeltme, silme ve işlenmesine itiraz etme hakkın olabilir. Bu hakları kullanmak için yukarıdaki e-posta adresine yaz.</p>
+
+<h2>7. Değişiklikler</h2>
+<p>Bu politikayı güncelleyebiliriz. Yukarıdaki "Son güncelleme" tarihi en güncel sürümü gösterir.</p>
+</section>
+</main>
 </body>
 </html>
